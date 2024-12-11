@@ -1,2 +1,18 @@
+# Entorno virtual
+env/
+venv/
+
+# Archivos de caché de Python
 __pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+#logs
 *.log
+
+#documents
+*.txt

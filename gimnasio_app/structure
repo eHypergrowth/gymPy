@@ -1,0 +1,4 @@
+#/bin/bash
+
+tree -I "env|__pycache__" > structure.txt
+tree -I "env|__pycache__"

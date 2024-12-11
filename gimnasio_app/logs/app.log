@@ -2701,3 +2701,28 @@
 2024-12-10 21:08:53,861 - GimnasioApp - INFO - Inicializando la ventana de Gestión de Contratos
 2024-12-10 21:08:53,873 - GimnasioApp - INFO - Mostrando Tabla de Usuarios
 2024-12-10 21:08:58,567 - GimnasioApp - INFO - Saliendo del Sistema
+2024-12-10 21:18:28,455 - GimnasioApp - INFO - Iniciando la APP
+2024-12-10 21:18:28,500 - GimnasioApp - INFO - Base de datos inicializada correctamente
+2024-12-10 21:18:34,963 - GimnasioApp - INFO - Iniciando Dashboard con rol: Administrador
+2024-12-10 21:18:34,964 - GimnasioApp - INFO - Mostrando Tabla Clientes Clientes...
+2024-12-10 21:18:34,968 - GimnasioApp - INFO - Mostrando Tabla de planes
+2024-12-10 21:18:34,971 - GimnasioApp - INFO - Usuario actual registrado en la sesión: admin
+2024-12-10 21:18:34,972 - GimnasioApp - INFO - Mostrando Tabla de pagos
+2024-12-10 21:18:34,972 - GimnasioApp - INFO - Búsqueda Cliente: 
+2024-12-10 21:18:34,973 - GimnasioApp - INFO - Planes obtenidos: ['MENSUAL - $500.00']
+2024-12-10 21:18:34,974 - GimnasioApp - INFO - Pagos cargados: []
+2024-12-10 21:18:34,978 - GimnasioApp - INFO - Inicializando la ventana de Gestión de Contratos
+2024-12-10 21:18:34,985 - GimnasioApp - INFO - Mostrando Tabla de Usuarios
+2024-12-10 21:18:44,642 - GimnasioApp - INFO - Usuario actual registrado en la sesión: admin
+2024-12-10 21:18:44,645 - GimnasioApp - INFO - Pago registrado: Cliente DEMO CLIENTE, Plan MENSUAL, Monto 500.00, Usuario admin
+2024-12-10 21:18:44,645 - GimnasioApp - INFO - Pagos cargados: [(1, 'DEMO CLIENTE', 500.0, '2024-12-10', 1)]
+2024-12-10 21:18:46,191 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-12-10 21:18:46,191 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 1584
+2024-12-10 21:18:47,748 - GimnasioApp - INFO - Ticket generado para el pago: 1
+2024-12-10 21:18:48,663 - GimnasioApp - INFO - Pagos obtenidos: [(1, 'DEMO CLIENTE', 500.0, '2024-12-10')]
+2024-12-10 21:18:48,663 - GimnasioApp - INFO - Movimientos obtenidos: []
+2024-12-10 21:18:48,673 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-12-10 21:18:48,673 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 41 801
+2024-12-10 21:18:49,751 - GimnasioApp - INFO - Corte de caja generado por Admin: Desde 2024-12-10 Hasta 2024-12-10
+2024-12-10 21:18:54,492 - GimnasioApp - INFO - Gestión de Contratos mostrada correctamente.
+2024-12-10 21:18:56,881 - GimnasioApp - INFO - Saliendo del Sistema
