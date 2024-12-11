@@ -7,12 +7,11 @@ Este proyecto es una aplicación de escritorio desarrollada en Python y PyQt5 pa
 Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en tu sistema:
 
 1. **Python 3.8+**: Descárgalo desde [Python.org](https://www.python.org/).
-2. **Pipenv** (Opcional): Para manejar el entorno virtual de manera eficiente.
-3. **Git**: Para clonar el repositorio.
+2. **Git**: Para clonar el repositorio.
 
 ## Instalación
 
-Sigue estos pasos para instalar y configurar el proyecto:
+Para instalar y configurar el proyecto, simplemente ejecuta el script `installDevelop`, el cual automatiza todo el proceso:
 
 ### 1. Clonar el repositorio
 
@@ -22,44 +21,27 @@ git clone https://github.com/tu_usuario/tu_repositorio.git
 cd tu_repositorio
 ```
 
-### 2. Crear un entorno virtual
+### 2. Ejecutar el script de instalación
 
-Se recomienda usar un entorno virtual para evitar conflictos con otras dependencias de Python:
-
-#### Usando `pipenv`:
+El proyecto incluye un script llamado `installDevelop` que realiza la instalación completa. Solo necesitas ejecutarlo:
 ```bash
-pipenv install --python 3.8
-pipenv shell
+chmod +x installDevelop
+./installDevelop
 ```
 
-#### Usando `venv`:
+Este script:
+- Verifica si `python3-venv` está instalado e intenta instalarlo si falta.
+- Crea un entorno virtual llamado `env`.
+- Instala las dependencias desde el archivo `requirements.txt`.
+- Ejecuta automáticamente la aplicación.
+
+### 3. Iniciar manualmente la aplicación (opcional)
+
+Si prefieres iniciar manualmente la aplicación después de configurar el entorno:
 ```bash
-python -m venv env
-source env/bin/activate  # En Windows: env\Scripts\activate
+source env/bin/activate  # Activa el entorno virtual
+python main.py           # Ejecuta la aplicación
 ```
-
-### 3. Instalar dependencias
-
-Instala las dependencias necesarias utilizando `pip`:
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configurar la base de datos
-
-Asegúrate de que la base de datos SQLite y el archivo `schema.sql` estén en su lugar. Para inicializar la base de datos:
-```bash
-python database/database.py
-```
-Esto creará el archivo `gimnasio.db` en el directorio `database/` si no existe.
-
-### 5. Ejecutar la aplicación
-
-Para ejecutar la aplicación, usa el siguiente comando:
-```bash
-python main.py
-```
-Esto abrirá la ventana principal de la aplicación de gestión del gimnasio.
 
 ## Estructura del Proyecto
 
