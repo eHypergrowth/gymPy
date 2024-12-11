@@ -17,8 +17,8 @@ Para instalar y configurar el proyecto, simplemente ejecuta el script `installDe
 
 Clona este repositorio en tu máquina local:
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/eHypergrowth/gymPy.git
+cd gymPy/gimnasio_app
 ```
 
 ### 2. Ejecutar el script de instalación
