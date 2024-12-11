@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -z "$VIRTUAL_ENV" ]; then
+    echo "Por favor, activa el entorno virtual antes de ejecutar este script."
+    exit 1
+fi
+
+
+# Limpiar la terminal para una mejor lectura
+#clear
+
+# Iniciar la aplicación
+echo "Iniciando la aplicación..."
+python main.py

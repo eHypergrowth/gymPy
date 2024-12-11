@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Eliminar la base de datos existente
+if [ -f database/gimnasio.db ]; then
+    rm database/gimnasio.db
+    echo "Base de datos eliminada."
+else
+    echo "No se encontró la base de datos. Creando una nueva..."
+fi
+
+# Reinstalar dependencias (opcional, solo si es necesario)
+pip install -r requirements.txt
+
+# Eliminar cachés de Python
+find . -name "__pycache__" -exec rm -rf {} +
+echo "Cachés eliminados."
+
+echo "Reseteo de base de datos completado."
+sleep 2

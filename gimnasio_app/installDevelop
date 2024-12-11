@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Verificar si python3-venv está instalado
+if ! dpkg -s python3-venv >/dev/null 2>&1; then
+  echo "python3-venv no está instalado. Instalándolo ahora..."
+  sudo apt update
+  sudo apt install -y python3-venv
+fi
+
+# Crear el entorno virtual
+echo "Creando el entorno virtual..."
+python3 -m venv env
+
+# Activar el entorno virtual
+echo "Activando el entorno virtual..."
+source env/bin/activate
+
+# Instalar dependencias con pip
+if [ -f "requirements.txt" ]; then
+  echo "Instalando las dependencias desde requirements.txt..."
+  pip install --upgrade pip
+  pip install -r requirements.txt
+else
+  echo "Archivo requirements.txt no encontrado. Por favor, verifica su existencia."
+fi
+
+# Ejecutar el programa
+if [ -f "./run" ]; then
+  echo "Ejecutando la aplicación..."
+  chmod +x ./run
+  ./run
+else
+  echo "El archivo './run' no existe o no es ejecutable. Verifica el script."
+fi
+
+# Fin del script
+echo "Script completado."

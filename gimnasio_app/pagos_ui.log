@@ -1,0 +1,294 @@
+2024-12-02 18:40:47,021 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:40:47,023 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:40:47,165 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 18:40:47,166 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:40:49,173 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'jua'
+2024-12-02 18:40:49,175 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:40:49,309 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'juan'
+2024-12-02 18:40:49,311 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:03,358 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'juan '
+2024-12-02 18:41:03,359 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:06,070 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'uan '
+2024-12-02 18:41:06,071 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:06,237 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'an '
+2024-12-02 18:41:06,239 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:06,366 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'n '
+2024-12-02 18:41:06,367 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:06,517 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ' '
+2024-12-02 18:41:06,519 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:06,629 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:06,631 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:08,733 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'k'
+2024-12-02 18:41:08,735 - DEBUG - Nombres encontrados: []
+2024-12-02 18:41:10,133 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:10,135 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:11,830 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'r'
+2024-12-02 18:41:11,832 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:12,701 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:12,703 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:13,717 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'l'
+2024-12-02 18:41:13,719 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:14,325 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:14,327 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:15,597 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'g'
+2024-12-02 18:41:15,599 - DEBUG - Nombres encontrados: []
+2024-12-02 18:41:15,766 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'gg'
+2024-12-02 18:41:15,767 - DEBUG - Nombres encontrados: []
+2024-12-02 18:41:16,846 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'g'
+2024-12-02 18:41:16,848 - DEBUG - Nombres encontrados: []
+2024-12-02 18:41:17,093 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:17,095 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:21,582 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:41:21,584 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:22,317 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:22,319 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:23,389 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'e'
+2024-12-02 18:41:23,391 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:23,393 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'er'
+2024-12-02 18:41:23,395 - DEBUG - Nombres encontrados: []
+2024-12-02 18:41:24,701 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'e'
+2024-12-02 18:41:24,703 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:25,246 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:25,247 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:26,270 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'm'
+2024-12-02 18:41:26,272 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:26,358 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'mo'
+2024-12-02 18:41:26,360 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:28,102 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'mon'
+2024-12-02 18:41:28,104 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:28,606 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'monj'
+2024-12-02 18:41:28,608 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:29,054 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'monje'
+2024-12-02 18:41:29,056 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:30,806 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:41:30,808 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:31,598 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:41:31,599 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:31,766 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 18:41:31,767 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:31,893 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'jua'
+2024-12-02 18:41:31,895 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:32,005 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'juan'
+2024-12-02 18:41:32,007 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:41:46,918 - DEBUG - Datos ingresados: Cliente: 'juan', Monto: '1740.0', Fecha: '2024-12-02'
+2024-12-02 18:41:46,919 - DEBUG - Buscando ID del cliente para: 'juan'
+2024-12-02 18:41:46,921 - DEBUG - Resultado obtenido para 'juan': (1,)
+2024-12-02 18:41:46,921 - INFO - Registrando pago para Cliente ID: 1, Monto: 1740.0, Fecha: 2024-12-02
+2024-12-02 18:43:10,811 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:43:10,811 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:43:17,736 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 18:43:17,738 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:43:17,917 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'jua'
+2024-12-02 18:43:17,918 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:43:18,216 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'juan'
+2024-12-02 18:43:18,218 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:44:57,903 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:44:57,903 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:44:57,903 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:44:58,057 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 18:44:58,058 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:44:58,058 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:00,657 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:45:00,659 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:00,659 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:00,793 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:45:00,795 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:00,795 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:01,624 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 18:45:01,626 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:01,627 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:02,230 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JU'
+2024-12-02 18:45:02,232 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:02,233 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:45:05,126 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 18:45:05,128 - DEBUG - Nombres encontrados: []
+2024-12-02 18:45:05,128 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 18:48:58,987 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 18:48:58,987 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:48:58,987 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:11,573 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:49:11,575 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:11,576 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:12,029 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 18:49:12,030 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:12,030 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:20,389 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:49:20,391 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:20,391 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:21,149 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:49:21,151 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:21,151 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:21,317 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 18:49:21,319 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:21,319 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:22,413 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:49:22,415 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:22,415 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:22,549 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 18:49:22,551 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:22,551 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:23,188 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 18:49:23,189 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:49:23,189 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:40,170 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 18:59:40,171 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:40,171 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:40,688 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 18:59:40,690 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:40,691 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:41,744 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'jua'
+2024-12-02 18:59:41,745 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:41,746 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:41,855 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'juan'
+2024-12-02 18:59:41,857 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:41,857 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:43,469 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 18:59:43,470 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:43,471 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 18:59:45,570 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 18:59:45,572 - DEBUG - Nombres encontrados: []
+2024-12-02 18:59:45,572 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 18:59:56,433 - DEBUG - Datos ingresados: Cliente: 'JUAN EMMANUEL RAMIREZ MONJE', Monto: '900.0', Fecha: '2024-12-02'
+2024-12-02 18:59:56,433 - DEBUG - Buscando ID del cliente para: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 18:59:56,436 - DEBUG - Resultado obtenido para 'JUAN EMMANUEL RAMIREZ MONJE': None
+2024-12-02 18:59:56,436 - ERROR - Cliente no encontrado: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:03:08,451 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 19:03:08,453 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:08,454 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:10,347 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 19:03:10,349 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:10,349 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:11,259 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 19:03:11,262 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:03:11,262 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:03:11,673 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 19:03:11,674 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:11,675 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:13,424 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:03:13,426 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:13,427 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:41,032 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJ'
+2024-12-02 19:03:41,033 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:41,033 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:41,273 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MON'
+2024-12-02 19:03:41,273 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:41,273 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:41,441 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MO'
+2024-12-02 19:03:41,441 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:41,441 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:41,712 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ M'
+2024-12-02 19:03:41,713 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:41,713 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:42,220 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ '
+2024-12-02 19:03:42,222 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:42,222 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:43,689 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ M'
+2024-12-02 19:03:43,689 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:43,689 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:45,033 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ '
+2024-12-02 19:03:45,033 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:45,033 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:45,249 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL '
+2024-12-02 19:03:45,249 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:45,249 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:03:45,401 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN '
+2024-12-02 19:03:45,401 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:45,401 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:03:45,513 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 19:03:45,513 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:03:45,513 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:03:49,113 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:03:49,113 - DEBUG - Nombres encontrados: []
+2024-12-02 19:03:49,113 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:06:28,566 - DEBUG - Buscando nombres de clientes para autocompletado con texto: '1'
+2024-12-02 19:06:28,568 - DEBUG - Nombres encontrados: []
+2024-12-02 19:06:28,569 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:06:30,068 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 19:06:30,068 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:06:30,068 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:06:30,486 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 19:06:30,488 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:06:30,488 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:06:34,507 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'ju'
+2024-12-02 19:06:34,508 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:06:34,508 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:06:35,182 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 19:06:35,184 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:06:35,185 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:06:35,803 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 19:06:35,805 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:06:35,806 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:06:37,438 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:06:37,439 - DEBUG - Nombres encontrados: []
+2024-12-02 19:06:37,440 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:06:46,619 - DEBUG - Datos ingresados: Cliente: 'JUAN EMMANUEL RAMIREZ MONJE', Monto: '1740.0', Fecha: '2024-12-02'
+2024-12-02 19:06:46,619 - DEBUG - Buscando ID del cliente para: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:06:46,621 - DEBUG - Resultado obtenido para 'JUAN EMMANUEL RAMIREZ MONJE': (1,)
+2024-12-02 19:06:46,621 - INFO - Registrando pago para Cliente ID: 1, Monto: 1740.0, Fecha: 2024-12-02
+2024-12-02 19:15:09,127 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 19:15:09,129 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:15:09,129 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:15:10,406 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 19:15:10,409 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:15:10,409 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:15:10,914 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 19:15:10,914 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:15:10,914 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:15:12,802 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:15:12,804 - DEBUG - Nombres encontrados: []
+2024-12-02 19:15:12,804 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:17:42,656 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'j'
+2024-12-02 19:17:42,656 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:17:42,656 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:17:43,569 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 19:17:43,571 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:17:43,571 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:17:44,165 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 19:17:44,166 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:17:44,167 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:17:45,887 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:17:45,888 - DEBUG - Nombres encontrados: []
+2024-12-02 19:17:45,888 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:18:16,124 - DEBUG - Datos ingresados: Cliente: 'JUAN EMMANUEL RAMIREZ MONJE', Monto: '900.0', Fecha: '2024-12-02', Plan: 'Trimestral'
+2024-12-02 19:18:16,125 - DEBUG - Buscando ID del cliente para: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:18:16,126 - DEBUG - Resultado obtenido para 'JUAN EMMANUEL RAMIREZ MONJE': (1,)
+2024-12-02 19:18:16,127 - INFO - Registrando pago para Cliente ID: 1, Plan ID: 2, Monto: 900.0, Fecha: 2024-12-02
+2024-12-02 19:18:16,132 - INFO - Pago registrado exitosamente.
+2024-12-02 19:19:24,575 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'p'
+2024-12-02 19:19:24,577 - DEBUG - Nombres encontrados: ['PAULINA CHAVEZ']
+2024-12-02 19:19:24,578 - DEBUG - Nombres encontrados para autocompletado: ['PAULINA CHAVEZ']
+2024-12-02 19:19:26,643 - DEBUG - Buscando nombres de clientes para autocompletado con texto: ''
+2024-12-02 19:19:26,644 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:19:26,645 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE', 'PAULINA CHAVEZ']
+2024-12-02 19:19:27,246 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'P'
+2024-12-02 19:19:27,247 - DEBUG - Nombres encontrados: ['PAULINA CHAVEZ']
+2024-12-02 19:19:27,248 - DEBUG - Nombres encontrados para autocompletado: ['PAULINA CHAVEZ']
+2024-12-02 19:19:28,982 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'PAULINA CHAVEZ'
+2024-12-02 19:19:28,984 - DEBUG - Nombres encontrados: []
+2024-12-02 19:19:28,984 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:19:36,153 - DEBUG - Datos ingresados: Cliente: 'PAULINA CHAVEZ', Monto: '1740.0', Fecha: '2024-12-02', Plan: 'Semestral'
+2024-12-02 19:19:36,154 - DEBUG - Buscando ID del cliente para: 'PAULINA CHAVEZ'
+2024-12-02 19:19:36,155 - DEBUG - Resultado obtenido para 'PAULINA CHAVEZ': (2,)
+2024-12-02 19:19:36,156 - INFO - Registrando pago para Cliente ID: 2, Plan ID: 3, Monto: 1740.0, Fecha: 2024-12-02
+2024-12-02 19:19:36,163 - INFO - Pago registrado exitosamente.
+2024-12-02 19:24:51,312 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'J'
+2024-12-02 19:24:51,314 - DEBUG - Nombres encontrados: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:24:51,315 - DEBUG - Nombres encontrados para autocompletado: ['JUAN EMMANUEL RAMIREZ MONJE']
+2024-12-02 19:24:53,114 - DEBUG - Buscando nombres de clientes para autocompletado con texto: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:24:53,115 - DEBUG - Nombres encontrados: []
+2024-12-02 19:24:53,116 - DEBUG - Nombres encontrados para autocompletado: []
+2024-12-02 19:25:00,004 - DEBUG - Datos ingresados: Cliente: 'JUAN EMMANUEL RAMIREZ MONJE', Monto: '1740.0', Fecha: '2024-12-02', Plan: 'Semestral'
+2024-12-02 19:25:00,004 - DEBUG - Buscando ID del cliente para: 'JUAN EMMANUEL RAMIREZ MONJE'
+2024-12-02 19:25:00,006 - DEBUG - Resultado obtenido para 'JUAN EMMANUEL RAMIREZ MONJE': (1,)
+2024-12-02 19:25:00,008 - INFO - Registrando pago para Cliente ID: 1, Plan ID: 3, Monto: 1740.0, Fecha: 2024-12-02
+2024-12-02 19:25:00,014 - INFO - Pago registrado exitosamente.
+2024-12-02 19:46:57,457 - INFO - Generando ticket de pago para ID-Pago: 1
+2024-12-02 19:46:57,460 - INFO - Ticket guardado como: ticket_pago_1.pdf
+2024-12-02 19:46:57,461 - INFO - Imprimiendo archivo: ticket_pago_1.pdf
+2024-12-03 15:25:23,820 - ERROR - Error al obtener planes: module 'database' has no attribute 'conectar'
+2024-12-03 15:34:42,165 - ERROR - Error al obtener planes: module 'database' has no attribute 'conectar'
+2024-12-03 15:43:05,873 - ERROR - Error al obtener planes: module 'database' has no attribute 'conectar'
+2024-12-03 15:48:03,373 - ERROR - Error al obtener planes: module 'database' has no attribute 'conectar'
+2024-12-03 15:48:48,332 - ERROR - Error al obtener planes: module 'database' has no attribute 'conectar'
+2024-12-03 15:50:59,128 - ERROR - Error al obtener planes: module 'database' has no attribute 'conectar'
+2024-12-03 15:52:39,659 - ERROR - Error al obtener planes: module 'database' has no attribute 'conectar'
