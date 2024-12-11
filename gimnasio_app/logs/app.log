@@ -2688,3 +2688,16 @@
 2024-12-10 20:57:46,140 - GimnasioApp - INFO - Gestión de Contratos mostrada correctamente.
 2024-12-10 20:58:04,758 - GimnasioApp - INFO - Gestión de Contratos mostrada correctamente.
 2024-12-10 20:59:00,331 - GimnasioApp - INFO - Saliendo del Sistema
+2024-12-10 21:08:49,598 - GimnasioApp - INFO - Iniciando la APP
+2024-12-10 21:08:49,598 - GimnasioApp - INFO - Base de datos inicializada correctamente
+2024-12-10 21:08:53,840 - GimnasioApp - INFO - Iniciando Dashboard con rol: Administrador
+2024-12-10 21:08:53,842 - GimnasioApp - INFO - Mostrando Tabla Clientes Clientes...
+2024-12-10 21:08:53,847 - GimnasioApp - INFO - Mostrando Tabla de planes
+2024-12-10 21:08:53,850 - GimnasioApp - INFO - Usuario actual registrado en la sesión: admin
+2024-12-10 21:08:53,851 - GimnasioApp - INFO - Mostrando Tabla de pagos
+2024-12-10 21:08:53,851 - GimnasioApp - INFO - Búsqueda Cliente: 
+2024-12-10 21:08:53,851 - GimnasioApp - INFO - Planes obtenidos: ['MENSUAL - $500.00', 'ANUAL - $3700.00']
+2024-12-10 21:08:53,853 - GimnasioApp - INFO - Pagos cargados: [(1, 'DEMO CLIENTE', 500.0, '2024-12-10', 1)]
+2024-12-10 21:08:53,861 - GimnasioApp - INFO - Inicializando la ventana de Gestión de Contratos
+2024-12-10 21:08:53,873 - GimnasioApp - INFO - Mostrando Tabla de Usuarios
+2024-12-10 21:08:58,567 - GimnasioApp - INFO - Saliendo del Sistema
