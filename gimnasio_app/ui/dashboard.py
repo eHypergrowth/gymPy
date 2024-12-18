@@ -222,6 +222,6 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
 
     rol_prueba = "Administrador"
-    window = Dashboard(1, "admin", rol_prueba)  # Prueba con ID, Username y Rol
+    window = Dashboard(1, "admin", rol_prueba)  # Prueba con ID, Username y Rol User: admin | Passwd: admin123
     window.show()
     sys.exit(app.exec_())

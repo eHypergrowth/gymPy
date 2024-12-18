@@ -3,9 +3,13 @@ from PyQt5.QtWidgets import (
     QPushButton, QLabel, QComboBox, QDateEdit, QGridLayout, QMessageBox, QWidget
 )
 from PyQt5.QtCore import Qt, QDate
-from PyQt5.QtGui import QFont
+from PyQt5.QtGui import QFont, QPixmap, QPainter, QPen
 from logger_config import logger
 from database.database import conectar
+import os
+import webbrowser
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import letter
 
 class GestionContratos(QDialog):
     def __init__(self, parent=None):
@@ -14,11 +18,57 @@ class GestionContratos(QDialog):
         self.setGeometry(100, 100, 1100, 700)
         logger.info("Inicializando la ventana de Gestión de Contratos")
 
+        # Estilos
+        self.setStyleSheet("""
+            QDialog {
+                background-color: #2C3E50;
+            }
+            QLabel {
+                color: #ECF0F1;
+                font-size: 14px;
+            }
+            QLineEdit, QComboBox {
+                background-color: #ECF0F1;
+                border: 1px solid #34495E;
+                border-radius: 5px;
+                padding: 8px;
+                font-size: 12px;
+                color: #2C3E50;
+            }
+            QLineEdit:focus, QComboBox:focus {
+                border: 2px solid #1ABC9C;
+            }
+            QPushButton {
+                background-color: #1ABC9C;
+                color: #FFFFFF;
+                font-size: 12px;
+                font-weight: bold;
+                border-radius: 5px;
+                padding: 8px;
+            }
+            QPushButton:hover {
+                background-color: #16A085;
+            }
+            QPushButton:pressed {
+                background-color: #1ABC9C;
+                padding: 6px;
+            }
+            QTableWidget {
+                background-color: #ECF0F1;
+                border: none;
+                font-size: 12px;
+                color: #2C3E50;
+            }
+        """)
+
+        # Layout principal
+        main_layout = QVBoxLayout()
+
         # Configurar la interfaz
         self.configurar_interfaz()
 
         # Conectar botones
-        self.btn_agregar.clicked.connect(self.agregar_contrato)
+        self.btn_agregar.clicked.connect(self.abrir_captura_firma)
         self.btn_eliminar.clicked.connect(self.eliminar_contrato)
 
         # Cargar datos iniciales
@@ -35,31 +85,6 @@ class GestionContratos(QDialog):
         self.tabla_contratos.setColumnCount(6)
         self.tabla_contratos.setHorizontalHeaderLabels(["ID", "Cliente", "Plan", "Fecha Inicio", "Fecha Fin", "Estado"])
         self.tabla_contratos.setAlternatingRowColors(True)
-        self.tabla_contratos.setStyleSheet(
-            """
-            QTableWidget {
-                background-color: #FFFFFF;
-                border: 1px solid #BDC3C7;
-                font-size: 14px;
-                color: #2C3E50;
-            }
-            QTableWidget::item {
-                padding: 5px;
-            }
-            QTableWidget::item:selected {
-                background-color: #1ABC9C;
-                color: #FFFFFF;
-            }
-            QHeaderView::section {
-                background-color: #34495E;
-                color: white;
-                padding: 5px;
-                font-size: 14px;
-                font-weight: bold;
-                border: none;
-            }
-            """
-        )
         layout_principal.addWidget(self.tabla_contratos)
 
         # Contenedor del formulario
@@ -67,83 +92,27 @@ class GestionContratos(QDialog):
         layout_formulario = QGridLayout()
 
         self.label_cliente = QLabel("Cliente:")
-        self.label_cliente.setFont(QFont("Arial", 12, QFont.Bold))
         self.input_cliente = QComboBox()
-        self.input_cliente.setStyleSheet("""
-            QComboBox {
-                background-color: #FFFFFF;
-                padding: 8px;
-                border: 1px solid #BDC3C7;
-                border-radius: 6px;
-                font-size: 14px;
-            }
-        """)
         layout_formulario.addWidget(self.label_cliente, 0, 0)
         layout_formulario.addWidget(self.input_cliente, 0, 1)
 
         self.label_plan = QLabel("Plan:")
-        self.label_plan.setFont(QFont("Arial", 12, QFont.Bold))
         self.input_plan = QComboBox()
-        self.input_plan.setStyleSheet("""
-            QComboBox {
-                background-color: #FFFFFF;
-                padding: 8px;
-                border: 1px solid #BDC3C7;
-                border-radius: 6px;
-                font-size: 14px;
-            }
-        """)
         layout_formulario.addWidget(self.label_plan, 1, 0)
         layout_formulario.addWidget(self.input_plan, 1, 1)
 
         self.label_fecha_inicio = QLabel("Fecha de Inicio:")
-        self.label_fecha_inicio.setFont(QFont("Arial", 12, QFont.Bold))
         self.input_fecha_inicio = QDateEdit()
         self.input_fecha_inicio.setCalendarPopup(True)
         self.input_fecha_inicio.setDate(QDate.currentDate())
-        self.input_fecha_inicio.setStyleSheet("""
-            QDateEdit {
-                background-color: #FFFFFF;
-                padding: 8px;
-                border: 1px solid #BDC3C7;
-                border-radius: 6px;
-                font-size: 14px;
-            }
-        """)
         layout_formulario.addWidget(self.label_fecha_inicio, 2, 0)
         layout_formulario.addWidget(self.input_fecha_inicio, 2, 1)
 
         self.label_fecha_fin = QLabel("Fecha de Fin:")
-        self.label_fecha_fin.setFont(QFont("Arial", 12, QFont.Bold))
         self.input_fecha_fin = QDateEdit()
         self.input_fecha_fin.setCalendarPopup(True)
-        self.input_fecha_fin.setStyleSheet("""
-            QDateEdit {
-                background-color: #FFFFFF;
-                padding: 8px;
-                border: 1px solid #BDC3C7;
-                border-radius: 6px;
-                font-size: 14px;
-            }
-        """)
         layout_formulario.addWidget(self.label_fecha_fin, 3, 0)
         layout_formulario.addWidget(self.input_fecha_fin, 3, 1)
-
-        self.label_estado = QLabel("Estado:")
-        self.label_estado.setFont(QFont("Arial", 12, QFont.Bold))
-        self.input_estado = QComboBox()
-        self.input_estado.setStyleSheet("""
-            QComboBox {
-                background-color: #FFFFFF;
-                padding: 8px;
-                border: 1px solid #BDC3C7;
-                border-radius: 6px;
-                font-size: 14px;
-            }
-        """)
-        self.input_estado.addItems(["Activo", "Vencido", "Cancelado"])
-        layout_formulario.addWidget(self.label_estado, 4, 0)
-        layout_formulario.addWidget(self.input_estado, 4, 1)
 
         contenedor_formulario.setLayout(layout_formulario)
         layout_principal.addWidget(contenedor_formulario)
@@ -151,39 +120,7 @@ class GestionContratos(QDialog):
         # Botones para agregar y eliminar contratos
         layout_botones = QHBoxLayout()
         self.btn_agregar = QPushButton("Agregar Contrato")
-        self.btn_agregar.setStyleSheet(
-            """
-            QPushButton {
-                background-color: #1ABC9C;
-                color: white;
-                border: none;
-                border-radius: 6px;
-                padding: 12px;
-                font-size: 14px;
-                font-weight: bold;
-            }
-            QPushButton:hover {
-                background-color: #16A085;
-            }
-            """
-        )
         self.btn_eliminar = QPushButton("Eliminar Contrato")
-        self.btn_eliminar.setStyleSheet(
-            """
-            QPushButton {
-                background-color: #E74C3C;
-                color: white;
-                border: none;
-                border-radius: 6px;
-                padding: 12px;
-                font-size: 14px;
-                font-weight: bold;
-            }
-            QPushButton:hover {
-                background-color: #C0392B;
-            }
-            """
-        )
         layout_botones.addWidget(self.btn_agregar)
         layout_botones.addWidget(self.btn_eliminar)
         layout_principal.addLayout(layout_botones)
@@ -233,14 +170,23 @@ class GestionContratos(QDialog):
         except Exception as e:
             logger.error(f"Error al cargar contratos: {e}")
 
-    def agregar_contrato(self):
-        """Agrega un contrato nuevo."""
+    def abrir_captura_firma(self):
+        """Abre la ventana para capturar la firma digital."""
+        try:
+            ventana_firma = VentanaFirma(self)
+            if ventana_firma.exec_() == QDialog.Accepted:
+                ruta_firma = ventana_firma.ruta_firma
+                self.generar_contrato(ruta_firma)
+        except Exception as e:
+            logger.error(f"Error al abrir la ventana de captura de firma: {e}")
+
+    def generar_contrato(self, ruta_firma):
+        """Genera un contrato en PDF con la firma digital."""
         try:
             id_cliente = self.input_cliente.currentData()
             id_plan = self.input_plan.currentData()
             fecha_inicio = self.input_fecha_inicio.date().toString("yyyy-MM-dd")
             fecha_fin = self.input_fecha_fin.date().toString("yyyy-MM-dd")
-            estado = self.input_estado.currentText()
 
             if not id_cliente or not id_plan:
                 QMessageBox.warning(self, "Advertencia", "Todos los campos son obligatorios.")
@@ -248,22 +194,30 @@ class GestionContratos(QDialog):
 
             conexion = conectar()
             cursor = conexion.cursor()
-            cursor.execute(
-                """
-                INSERT INTO contratos (id_cliente, id_plan, fecha_inicio, fecha_fin, monto_total, estado)
-                VALUES (?, ?, ?, ?, 0, ?)
-                """,
-                (id_cliente, id_plan, fecha_inicio, fecha_fin, estado),
-            )
-            conexion.commit()
+            cursor.execute("SELECT nombre || ' ' || apellido FROM clientes WHERE id_cliente = ?", (id_cliente,))
+            cliente = cursor.fetchone()[0]
+
+            cursor.execute("SELECT nombre_plan FROM planes WHERE id_plan = ?", (id_plan,))
+            plan = cursor.fetchone()[0]
             conexion.close()
 
-            logger.info(f"Contrato agregado: Cliente={id_cliente}, Plan={id_plan}")
-            QMessageBox.information(self, "Éxito", "Contrato agregado correctamente.")
-            self.cargar_contratos()
+            nombre_archivo = f"generated_pdfs/contrato_{cliente.replace(' ', '_')}.pdf"
+            c = canvas.Canvas(nombre_archivo, pagesize=letter)
+            c.drawString(100, 750, f"Contrato de Servicios")
+            c.drawString(100, 730, f"Cliente: {cliente}")
+            c.drawString(100, 710, f"Plan: {plan}")
+            c.drawString(100, 690, f"Fecha de Inicio: {fecha_inicio}")
+            c.drawString(100, 670, f"Fecha de Fin: {fecha_fin}")
+
+            if os.path.exists(ruta_firma):
+                c.drawImage(ruta_firma, 100, 600, width=200, height=100)
+
+            c.save()
+            webbrowser.open(nombre_archivo)
+            QMessageBox.information(self, "Contrato Generado", "El contrato se ha generado y abierto en el navegador.")
         except Exception as e:
-            logger.error(f"Error al agregar contrato: {e}")
-            QMessageBox.critical(self, "Error", f"Error al agregar contrato: {e}")
+            logger.error(f"Error al generar contrato: {e}")
+            QMessageBox.critical(self, "Error", f"Error al generar contrato: {e}")
 
     def eliminar_contrato(self):
         """Elimina el contrato seleccionado."""
@@ -286,3 +240,42 @@ class GestionContratos(QDialog):
         except Exception as e:
             logger.error(f"Error al eliminar contrato ID={id_contrato}: {e}")
             QMessageBox.critical(self, "Error", f"Error al eliminar contrato: {e}")
+
+class VentanaFirma(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Captura de Firma")
+        self.setGeometry(100, 100, 500, 400)
+        self.ruta_firma = None
+        self.dibujo = QPixmap(400, 200)
+        self.dibujo.fill(Qt.white)
+
+        # Configurar la interfaz
+        self.configurar_interfaz()
+
+    def configurar_interfaz(self):
+        """Configura la interfaz gráfica de la ventana de captura de firma."""
+        layout_principal = QVBoxLayout()
+
+        self.area_dibujo = QWidget(self)
+        self.area_dibujo.setFixedSize(400, 200)
+        layout_principal.addWidget(self.area_dibujo, alignment=Qt.AlignCenter)
+
+        layout_botones = QHBoxLayout()
+        btn_guardar = QPushButton("Guardar Firma")
+        btn_cancelar = QPushButton("Cancelar")
+        layout_botones.addWidget(btn_guardar)
+        layout_botones.addWidget(btn_cancelar)
+
+        layout_principal.addLayout(layout_botones)
+        btn_guardar.clicked.connect(self.guardar_firma)
+        btn_cancelar.clicked.connect(self.reject)
+
+        self.setLayout(layout_principal)
+
+    def guardar_firma(self):
+        """Guarda la firma como una imagen PNG."""
+        ruta_imagen = "generated_pdfs/firma.png"
+        self.dibujo.save(ruta_imagen)
+        self.ruta_firma = ruta_imagen
+        self.accept()

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Verificar si el archivo requirements.txt existe
+if [ ! -f "requirements.txt" ]; then
+  echo "El archivo requirements.txt no se encuentra en el directorio actual."
+  exit 1
+fi
+
+echo "Desinstalando las dependencias listadas en requirements.txt..."
+
+# Leer cada paquete en requirements.txt y desinstalarlo
+while IFS= read -r line; do
+  # Extraer solo el nombre del paquete (sin la versión) usando awk
+  package=$(echo "$line" | awk -F'==' '{print $1}')
+  if pip show "$package" >/dev/null 2>&1; then
+    echo "Desinstalando $package..."
+    pip uninstall -y "$package"
+  else
+    echo "El paquete $package no está instalado."
+  fi
+done < requirements.txt
+
+echo "Borrando Cache"
+./clearCache.sh
+
+echo "Proceso de desinstalación completado."

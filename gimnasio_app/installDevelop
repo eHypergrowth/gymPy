@@ -11,15 +11,32 @@ fi
 echo "Creando el entorno virtual..."
 python3 -m venv env
 
+# Verificar si el entorno virtual fue creado correctamente
+if [ ! -d "env" ]; then
+  echo "Error: No se pudo crear el entorno virtual. Por favor, verifica tu instalación de Python."
+  exit 1
+fi
+
 # Activar el entorno virtual
 echo "Activando el entorno virtual..."
 source env/bin/activate
+
+# Verificar si el entorno virtual está activado
+if [[ "$VIRTUAL_ENV" == "" ]]; then
+  echo "Error: No se pudo activar el entorno virtual. Por favor, verifica tu configuración."
+  exit 1
+fi
 
 # Instalar dependencias con pip
 if [ -f "requirements.txt" ]; then
   echo "Instalando las dependencias desde requirements.txt..."
   pip install --upgrade pip
+  pip cache purge
+  #pip install --force-reinstall -r requirements.txt
   pip install -r requirements.txt
+  #pip install --upgrade pip setuptools
+  #pip install --no-cache-dir -r requirements.txt
+  #################################################
 else
   echo "Archivo requirements.txt no encontrado. Por favor, verifica su existencia."
 fi

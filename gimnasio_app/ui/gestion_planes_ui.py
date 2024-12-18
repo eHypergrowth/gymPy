@@ -5,12 +5,6 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtCore import Qt
 from database.database import conectar
 from logger_config import logger  # Importar el logger configurado
-import logging
-
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
 
 class GestionPlanes(QMainWindow):
     def __init__(self):

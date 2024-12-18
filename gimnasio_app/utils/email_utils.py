@@ -2,6 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from database.database import conectar
+from logger_config import logger
 
 def enviar_email(destinatario, asunto, mensaje_html):
     """Envía un correo electrónico utilizando la configuración de la base de datos."""
